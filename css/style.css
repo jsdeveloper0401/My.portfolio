@@ -160,9 +160,13 @@ nav {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    background-color: #094556;
+    background-color: #084e61;
+    transition: .5s ease;
 }
-.banner-title h1 {
+.banner-title:hover{
+    background: #15acd6;
+}
+.banner-title a {
     width: 135px;
     height: 33px;
     font-family: Schoolbell;
